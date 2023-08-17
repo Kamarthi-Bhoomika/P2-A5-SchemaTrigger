@@ -23,7 +23,6 @@ MailMessage nvarchar(50)
 select * from bank.Customer
 select * from bank.MailInfo
 
-drop trigger trgMailtoCust
 create trigger trgMailtoCust
 ON bank.Customer
 after insert
