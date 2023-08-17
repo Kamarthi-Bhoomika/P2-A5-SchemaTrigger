@@ -1,8 +1,6 @@
 create database Assignment05Db
 use Assignment05Db
 
-drop table bank.Customer
-
 create schema bank
 create table bank.Customer
 (
