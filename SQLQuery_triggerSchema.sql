@@ -47,6 +47,10 @@ end
 end
 
 insert into bank.Customer(CName,CEmail,Contact) values ('Sam','Sam@gmail.com','9876789876')
+insert into bank.Customer(CName,CEmail,Contact) values ('Ravi','ravi@gmail.com','9876542246')
+insert into bank.Customer(CName,CEmail,Contact) values ('Ankit','ankit@gmail.com','9987656780')
+insert into bank.Customer(CName,CEmail,Contact) values ('Arsh','arsh@gmail.com','9876787612')
+insert into bank.Customer(CName,CEmail,Contact) values ('Deep','deep@gmail.com','9876789098')
 
 select * from bank.Customer
 select * from bank.MailInfo
